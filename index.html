@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Java Moderno 8→21 | Percurso Desktop</title>
+  <meta name="description" content="Percurso guiado e motivador para dominar Java moderno do 8 ao 21, com exemplos, checkpoints e progresso.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#main-content">Saltar para o conteúdo</a>
+  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+
+  <header class="site-topbar">
+    <div class="topbar-inner">
+      <p class="brand">Java Moderno 8→21</p>
+      <div class="topbar-meta">
+        <span class="chip">Desktop First</span>
+        <span class="chip">Full HD → 4K</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="home-main">
+    <section class="hero-panel" data-reveal>
+      <p class="eyebrow">Percurso Guiado</p>
+      <h1>Domina o Java moderno com ritmo, clareza e prática.</h1>
+      <p class="hero-copy">
+        Uma experiência pedagógica para quem já programa em Java e quer evoluir do Java 8 ao 21 sem ruído.
+        Cada módulo combina explicação curta, exemplo "antes vs moderno", erros comuns e mini quiz de retenção.
+      </p>
+      <p class="hero-subcopy">Meta sugerida: 1 a 2 módulos por sessão, com revisão ativa dos checkpoints.</p>
+      <div class="hero-cta-row">
+        <a id="btn-start" class="btn btn-primary" href="modulos/01-introducao.html">Começar Percurso</a>
+        <a class="btn btn-secondary" href="#modulos">Ver Mapa de Módulos</a>
+      </div>
+      <div class="hero-progress">
+        <div class="hero-progress-meta">
+          <strong id="global-progress-label">0%</strong>
+          <span id="global-progress-text">0 de 12 módulos concluídos</span>
+        </div>
+        <div
+          class="progress-track"
+          role="progressbar"
+          aria-label="Progresso total do curso"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <span id="global-progress-bar" class="progress-fill"></span>
+        </div>
+        <p id="global-score-text" class="hero-score">Pontuação total: 0/0 (0%)</p>
+        <p id="global-motivation-text" class="hero-motivation">Começa pelo módulo 1 e ganha ritmo.</p>
+      </div>
+    </section>
+
+    <section class="strip-panel" data-reveal>
+      <article class="strip-item">
+        <h2>Estrutura Didática</h2>
+        <p>Gancho → objetivos → explicação por blocos → exemplo comentado → checkpoint.</p>
+      </article>
+      <article class="strip-item">
+        <h2>Foco Técnico</h2>
+        <p>Lambdas, Streams, Optional, Collections, mudanças de versões e práticas modernas.</p>
+      </article>
+      <article class="strip-item">
+        <h2>Retenção Ativa</h2>
+        <p>Mini quizzes e recap de 5 pontos para consolidar conhecimento módulo a módulo.</p>
+      </article>
+    </section>
+
+    <section id="modulos" class="modules-panel" data-reveal>
+      <div class="modules-head">
+        <h2>Mapa do Percurso</h2>
+        <p>12 módulos em sequência recomendada, com entrada direta em qualquer ponto.</p>
+      </div>
+      <div id="modules-grid" class="modules-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>
+        Conteúdo baseado nos documentos de Luís Simões da Cunha (2025), licenciado em
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>.
+      </p>
+      <p>
+        Exemplos de referência:
+        <a href="https://github.com/luiscunhacsc/java-features-from-v8-to-now" target="_blank" rel="noopener noreferrer">Repositório GitHub</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/modules-data.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
